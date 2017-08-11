@@ -25,9 +25,9 @@ import PackageDescription
 let package = Package (
     name:    "NanoMessage",
     dependencies: [
-        .Package (url: "https://github.com/itssofluffy/FNVHashValue.git", majorVersion: 0),
-        .Package (url: "https://github.com/itssofluffy/ISFLibrary.git", majorVersion: 0),
-        .Package (url: "https://github.com/itssofluffy/Mutex.git", majorVersion: 0),
+        .Package (url: "https://github.com/redsift/FNVHashValue.git", majorVersion: 0),
+        .Package (url: "https://github.com/redsift/ISFLibrary.git", majorVersion: 0),
+        .Package (url: "https://github.com/redsift/Mutex.git", majorVersion: 0),
         .Package (url: "https://github.com/itssofluffy/CNanoMessage.git", majorVersion: 0)
     ]
 )
