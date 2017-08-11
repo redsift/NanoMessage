@@ -99,7 +99,7 @@ do {
 
 This project is released under the MIT license. See [LICENSE](LICENSE) for details.
 
-[swift-badge]: https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat
+[swift-badge]: https://img.shields.io/badge/Swift-3.1.1-orange.svg?style=flat
 [swift-url]: https://swift.org
 [travis-build-badge]: https://travis-ci.org/itssofluffy/NanoMessage.swift.svg?branch=master
 [travis-build-url]: https://travis-ci.org/itssofluffy/NanoMessage.swift
