@@ -133,9 +133,9 @@ internal func getSocketStatistic(_ nanoSocket: NanoSocket, _ option: SocketStati
     let statistic = nn_get_statistic(nanoSocket.fileDescriptor, option.rawValue)
 
     //guard (statistic != failedReturnCode) else {
-    guard (statistic >= 0) else {
-        throw NanoMessageError.GetSocketStatistic(code: nn_errno(), option: option)
-    }
+//     guard (statistic >= 0) else {
+//         throw NanoMessageError.GetSocketStatistic(code: nn_errno(), option: option)
+//     }
 
     return statistic
 }
