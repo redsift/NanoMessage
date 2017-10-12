@@ -134,7 +134,7 @@ public func poll(sockets: Array<NanoSocket>, timeout: TimeInterval = TimeInterva
             throw NanoMessageError.SocketIsADevice(socket: socket)
         }
 
-        var eventMask = CShort.allZeros                                 //
+        var eventMask = 0                                               //
         if (socket.receiver) {                                          // if the socket can receive then set the event mask appropriately.
             eventMask = _pollinMask
         }
@@ -144,7 +144,7 @@ public func poll(sockets: Array<NanoSocket>, timeout: TimeInterval = TimeInterva
 
         pollFds.append(nn_pollfd(fd:      socket.fileDescriptor,
                                  events:  eventMask,
-                                 revents: CShort.allZeros))
+                                 revents: 0))
     }
 
     try pollFds.withUnsafeMutableBufferPointer { fileDescriptors in     // poll the list of nano sockets.

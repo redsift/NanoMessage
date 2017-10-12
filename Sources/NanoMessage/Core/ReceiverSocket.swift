@@ -22,5 +22,5 @@
 
 /// Receiver socket protocol.
 public protocol ReceiverSocket: ReceiverNoTimeoutSocketMethods, ReceiverSocketMethods,
-                                ReceiverNoTimeoutSocketOptions, ReceiverSocketOptions,
+                                ReceiverNoTimeoutSocketOptions,
                                 ReceiverSocketStatistics { }

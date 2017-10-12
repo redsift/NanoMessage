@@ -22,7 +22,7 @@
 
 import Foundation
 
-public protocol SenderReceiverNoTimeoutSocket: SenderReceiverSocketProtocol, SenderSocket, ReceiverNoTimeoutSocket {
+public protocol SenderReceiverNoTimeoutSocket: SenderReceiverSocketProtocol, ReceiverNoTimeoutSocket {
     func sendMessage(_ message:   Message,
                      sendTimeout: TimeInterval,
                      _ closure:   @escaping (MessagePayload) throws -> Void) throws -> MessagePayload
