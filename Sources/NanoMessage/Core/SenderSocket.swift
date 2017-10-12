@@ -21,4 +21,4 @@
 */
 
 /// Sender socket protocol.
-public protocol SenderSocket: SenderSocketMethods, SenderSocketOptions, SenderSocketStatistics { }
+public protocol SenderSocket: SenderSocketMethods, SenderSocketStatistics { }
