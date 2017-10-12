@@ -4,7 +4,7 @@
 [![Build Status][travis-build-badge]][travis-build-url]
 [![License][mit-badge]][mit-url]
 
-**NanoMessage** is a **Swift-3** class wrapper of [nanomsg](http://nanomsg.org/)
+**NanoMessage** is a **Swift-4** class wrapper of [nanomsg](http://nanomsg.org/)
 
 ## Socket Protocols
 
